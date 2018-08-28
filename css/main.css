@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none; }
+
+body {
+  margin: 0; }
+
+button:focus, input:focus {
+  outline: none; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+  a:hover {
+    cursor: pointer; }
+
+/*Header*/
+/*Services*/
+/*Team*/
+/*Skills*/
+body {
+  font-family: 'Titillium Web';
+  font-weight: 400;
+  font-style: normal; }
+
+/* HEADER */
+.header {
+  background-color: #87509c; }
+  .header .top-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  .header-logo {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 58px;
+    margin-bottom: 145px; }
+  .header-menu {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 70px; }
+    .header-menu ul > li {
+      list-style: none;
+      display: inline-flex; }
+      .header-menu ul > li a {
+        font-size: 16px;
+        color: white;
+        padding: 10px 18px;
+        text-transform: uppercase; }
+        .header-menu ul > li a:hover {
+          border-radius: 5px;
+          background-color: #643a79; }
+  .header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .header-text_title {
+      font-size: 42.16px;
+      color: #f7f3ea;
+      font-weight: 700;
+      line-height: 1.158;
+      letter-spacing: 6px;
+      text-align: center;
+      margin-bottom: 62px; }
+    .header-text_button {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 145px; }
+      .header-text_button button {
+        padding: 28px 82px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-size: 18px;
+        font-weight: 600;
+        color: white;
+        text-transform: uppercase;
+        border-bottom: 4px solid #c86a40;
+        background-color: #eb7d4b;
+        border-radius: 5px; }
+        .header-text_button button:hover {
+          cursor: pointer; }
+
+/* SERVICES */
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #17c2a4; }
+  .services-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 120px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #f7f3ea; }
+    .services-title:after {
+      display: block;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 95px;
+      background: url("../img/line.png") center no-repeat;
+      opacity: 0.1; }
+  .services-subtitle {
+    font-size: 26px;
+    font-weight: 400;
+    color: #f7f3ea;
+    text-align: center;
+    margin-bottom: 80px; }
+  .services-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f7f3ea; }
+    .services-blocks__block {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .services-blocks__block-title {
+        padding-top: 60px;
+        margin-bottom: 28px;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase; }
+      .services-blocks__block-subtitle {
+        margin-bottom: 130px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center; }
+
+/* TEAM */
+.team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #e7f1f8; }
+  .team-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 120px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3c4761; }
+    .team-title:after {
+      display: block;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 95px;
+      background: url("../img/line.png") center no-repeat;
+      opacity: 0.1; }
+  .team-subtitle {
+    font-size: 26px;
+    font-weight: 400;
+    color: #5d677b;
+    text-align: center;
+    margin-bottom: 80px; }
+  .team-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f7f3ea; }
+    .team-blocks__block {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .team-blocks__block-title {
+        padding-top: 60px;
+        margin-bottom: 15px;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #27283d; }
+      .team-blocks__block-subtitle {
+        margin-bottom: 32px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        color: #64c6ea; }
+      .team-blocks__block-text {
+        margin-bottom: 33px;
+        font-size: 16px;
+        font-weight: 300;
+        text-align: center;
+        color: #3c4761; }
+      .team-blocks__block-social ul > li {
+        margin-bottom: 127px;
+        list-style: none;
+        display: inline-flex;
+        flex-direction: row;
+        padding: 0 6px; }
+
+/* SKILLS */
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white; }
+  .skills-title {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+    padding-top: 120px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #3c4761; }
+    .skills-title:after {
+      display: block;
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 95px;
+      background: url("../img/line.png") center no-repeat;
+      opacity: 0.1; }
+  .skills-subtitle {
+    font-size: 26px;
+    font-weight: 400;
+    color: #5d677b;
+    text-align: center;
+    margin-bottom: 80px; }
+  .skills-blocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f7f3ea; }
+    .skills-blocks__block {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .skills-blocks__block-img {
+        margin-bottom: 32px; }
+      .skills-blocks__block-title {
+        margin-bottom: 123px;
+        font-size: 24px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #27283d; }
